@@ -4,7 +4,7 @@ export default {
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
@@ -30,6 +30,7 @@ export default {
   ** Global CSS
   */
   css: [
+    { src: 'styles/layout.scss', lang: 'scss' }
   ],
   /*
   ** Plugins to load before mounting the App
@@ -53,7 +54,8 @@ export default {
   */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy'
+    'nuxt-buefy',
+    '@nuxt/content'
   ],
   /*
   ** Build configuration

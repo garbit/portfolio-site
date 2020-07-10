@@ -1,0 +1,25 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+@import "./variables.scss";
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+.hero {
+  &.has-background {
+    position: relative;
+    overflow: hidden;
+  }
+  &-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    &.is-transparent {
+      opacity: 0.3;
+    }
+  }
+}

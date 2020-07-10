@@ -1,58 +1,37 @@
-<template>
-  <div>
-    <nav
-      class="navbar header has-shadow is-primary"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <a
-          class="navbar-item"
-          href="/"
-        >
-          <img
-            src="~assets/buefy.png"
-            alt="Buefy"
-            height="28"
-          >
-        </a>
+<template lang="pug">
+//- div
+  //- nav.navbar(role="navigation" aria-label="main navigation")
+  //-   .navbar-brand
+  //-     a.navbar-item(href="/") Andy Garbett
+  //-     a.navbar-burger.burger(role="button" aria-label="menu" aria-expanded="false" data-target="mainNavbar")
+  //-     span(aria-hidden="true")
+  //-     span(aria-hidden="true")
+  //-     span(aria-hidden="true")
 
-        <div class="navbar-burger">
-          <span />
-          <span />
-          <span />
-        </div>
-      </div>
-    </nav>
+  //-   #mainNavbar.navbar-menu
+  //-     .navbar-start
+  //-       a.navbar-item Projects
+  //-       a.navbar-item Publications
+  //-       a.navbar-item Contact
 
-    <section class="main-content columns">
-      <aside class="column is-2 section">
-        <p class="menu-label is-hidden-touch">
-          General
-        </p>
-        <ul class="menu-list">
-          <li
-            v-for="(item, key) of items"
-            :key="key"
-          >
-            <nuxt-link
-              :to="item.to"
-              exact-active-class="is-active"
-            >
-              <b-icon :icon="item.icon" /> {{ item.title }}
-            </nuxt-link>
-          </li>
-        </ul>
-      </aside>
+  //-   .navbar-end
+  //-     .navbar-item
+div
+  b-navbar
+    template(slot="brand")
+      b-navbar-item(tag="router-link" :to="{ path: '/' }") Andy Garbett
+    template(slot="start")
+      b-navbar-item(href="#") Projects
+      b-navbar-item(href="#") Publications
+      b-navbar-item(href="#") Contact
 
-      <div class="container column is-10">
-        <nuxt />
-      </div>
-    </section>
-  </div>
+  section.main-content
+    .container
+      nuxt
 </template>
 
 <script>
+
 export default {
   data () {
     return {
