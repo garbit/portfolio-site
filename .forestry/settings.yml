@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: content/bio.md
+  label: Bio
+  match: "**/*"
+- type: document
   path: content/index.md
   label: Index
 upload_dir: static
