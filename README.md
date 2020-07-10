@@ -1,4 +1,5 @@
 # Portfolio Site
+This is my portfolio site using VueJs (NuxtJS), Forestry.io, and GitHub Pages.
 
 ## Build Setup
 
