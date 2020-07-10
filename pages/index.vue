@@ -1,18 +1,15 @@
 <template lang="pug">
   div
-    section.section.hero
+    section.hero
       .hero-body
         .container.has-text-centered
           h1.title.is-family-primary {{ page.title }}
           h2.subtitle {{ page.description }}
-
-    section.section
-      .container
-        nuxt-content(:document="page")
+    p {{ page.bio }}
+    nuxt-content(:document="page")
 </template>
 
 <script>
-
 export default {
   async asyncData ({ $content, error }) {
     try {
