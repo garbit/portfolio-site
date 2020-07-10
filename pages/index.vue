@@ -1,23 +1,14 @@
-<template>
-  <div>
-    <section class="section hero is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            {{ page.title }}
-          </h1>
-          <h2 class="subtitle">
-            {{ page.description }}
-          </h2>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <nuxt-content :document="page" />
-      </div>
-    </section>
-  </div>
+<template lang="pug">
+  div
+    section.section.hero
+      .hero-body
+        .container.has-text-centered
+          h1.title.is-family-primary {{ page.title }}
+          h2.subtitle {{ page.description }}
+
+    section.section
+      .container
+        nuxt-content(:document="page")
 </template>
 
 <script>
