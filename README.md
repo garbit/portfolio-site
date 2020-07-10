@@ -1,4 +1,4 @@
-# portfolio-site
+# Portfolio Site
 
 ## Build Setup
 
