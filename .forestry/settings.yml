@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/bio.md
   label: Bio
-  match: "**/*"
 - type: document
   path: content/index.md
   label: Index
