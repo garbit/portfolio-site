@@ -16,3 +16,4 @@ fields:
   label: summary
 pages:
 - content/projects/collections-dive.md
+- content/projects/feed-finder.md
