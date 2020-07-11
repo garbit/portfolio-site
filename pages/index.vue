@@ -3,7 +3,7 @@
     section
       .container.has-text-centered
         h1.title.is-size-3.is-family-primary {{ page.title }}
-        h2.subtitle.is-size-6 {{ page.description }}
+        h2.subtitle.is-size-6 Software Engineer / Interaction Designer / UX Researcher
     hr
     .columns.is-mobile.is-centered
       .column.is-3-desktop.is-5-tablet.is-8-mobile
@@ -11,6 +11,7 @@
           img(:src="bio.photo")
     .columns.is-centered.has-text-centered
       .column.is-10
+        h2.title.is-size-5.is-family-primary {{ page.description }}
         nuxt-content(:document="bio")
     .columns.is-centered.has-text-centered
       .column.is-6
@@ -19,6 +20,52 @@
         hr
 
     projects(:projects="projects")
+
+    .columns.is-centered
+      .column.is-6
+        hr
+
+    section.section
+      .container
+        .columns.is-centered
+          .column.is-10
+            h3.title.is-size-4.is-family-primary Ph.D. Thesis
+            p.is-size-5.is-family-primary
+              span.has-text-weight-semibold Designing Community Driven Participatory Platforms
+              span.is-italic : Reconfiguring Roles, Resources, Infrastructure, and Constraints for Community Commissioning.
+            br
+            p.is-family-primary Ph.D. Computing Science (Human-Computer Interaction), School of Computing Science, Newcastle Unviersity.
+            .content
+              ul
+                li Explored the design of tools, platforms, and services to maximize reach and depth of citizen participation in the generation of community-driven information resources.
+                li Launched an online platform that enables communities to collaboratively design and automatically generate location-based review mobile apps resulting in ~125,000 users and 24 mobile applications.
+
+    .columns.is-centered
+      .column.is-6
+        hr.small
+
+    section.section
+      .container
+        .columns.is-centered.is-multiline
+          .column.is-10
+            h3.title.is-size-4.is-family-primary Recent Talk
+            p.has-text-weight-semibold ThinkActive: Designing for Pseudonymous Activity Tracking in the Classroom
+            p Andrew Garbett, David Chatting, Gerard Wilkinson, Clement Lee, Ahmed Kharrufa. In Proc. CHI 2018. ACM.
+          .column.is-10
+            .video-container
+              iframe(src="https://www.youtube.com/embed/mVZT5GWgdjE" allowfullscreen="allowfullscreen" width="854" height="480" frameborder="0")
+
+    .columns.is-centered
+      .column.is-6
+        hr.small
+
+    section.section
+      .container
+        .columns.is-centered.is-multiline
+          .column.is-10
+            h3.title.is-size-4.is-family-primary Publications
+            p Full publication list can be found on Google Scholar
+            pre {{ publications }}
 </template>
 
 <script>
@@ -32,10 +79,12 @@ export default {
       const page = await $content('index').fetch()
       const bio = await $content('bio').fetch()
       const projects = await $content('projects').only(['title', 'subtitle', 'order', 'photo', 'summary']).sortBy('order').fetch()
+      const publications = await $content('publications').sortBy('publications', 'asc').fetch()
       return {
         page,
         bio,
-        projects
+        projects,
+        publications
       }
     } catch (e) {
       error({ statusCode: 404, message: 'Page not found' })
@@ -45,4 +94,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 </style>

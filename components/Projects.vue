@@ -2,8 +2,8 @@
   section
     .columns.is-centered
       .column.is-6.has-text-centered
-        h3.title.is-size-4.is-family-primary Projects
-        p The projects listed below are key projects that I have been involved in during my career at both the University of Lincoln and Newcastle University.
+        h3.title.is-size-4.is-family-primary Research Projects
+        p The projects listed below are technologies that I designed and developed as part of my research at University of Lincoln and Newcastle University.
     .projects
       .project(v-for="(project, i) in projects" :key="project.title")
         .columns.reverse-columns

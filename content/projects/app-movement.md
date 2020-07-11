@@ -9,7 +9,7 @@ App Movement is an online platform that enables communities to propose and promo
 
 Through the design of the platform we hope to understand how communities can commission technologies and services in order to establish community driven information resources to improve everyday life of community members.
 
-App Movement was launched in February 2015 and now has over 70,000 users who have created over 120 app campaigns and automatically generated 21 mobile applications to support communities in finding dementia friendly places, gender neutral toilets, and drone flying locations, and many more.
+App Movement was launched in February 2015 and now has over 120,000 users who have created over 120 app campaigns and automatically generated 24 mobile applications to support communities in finding dementia friendly places, gender neutral toilets, and drone flying locations, and many more.
 
 The commissioning of technology remains firmly in the hands of those with the skills, resources, and knowledge to do so. App Movement is the first step to democratising this process and enabling anyone, anywhere to automatically generate their own mobile information resource and support their community in establishing a shared information resource in response to the issues they face.
 

@@ -1,0 +1,210 @@
+{
+  "author": "Andrew Garbett",
+  "publications": {
+    "2019": [
+      {
+        "title": "Weaving the Topics of CHI: Using Citation Network Analysis to Explore Emerging Trends",
+        "proceedings": "In Proc. CHI 2019",
+        "publisher": "ACM",
+        "year": 2019,
+        "authors": [
+          "Clement Lee", "Andrew Garbett", "Junyan Wang", "Bingzhang Hu", "Dan Jackson."
+        ]
+      },
+      {
+        "title": "WhatFutures: Designing Large-Scale Engagements on WhatsApp",
+        "proceedings": "In Proc. CHI 2019",
+        "publisher": "ACM",
+        "year": 2019,
+        "authors": [
+          "Daniel Lambton-Howard", "Robert Anderson", "Kyle Montague", "Andrew Garbett", "Shaun Hazeldine", "Carlos Alvarez", "John A. Sweeney", "Patrick Olivier", "Ahmed Kharrufa"
+        ]
+      },
+      {
+        "title": "Involving Syrian Refugees in Design Research: Lessons Learnt from the Field",
+        "proceedings": "In Proc. CHI 2019",
+        "publisher": "ACM",
+        "year": 2019,
+        "authors": [
+          "Reem Talhouk", "Madeline Balaam", "Austin L Toombs", "Andrew Garbett", "Chaza Akik", "Hala Ghattas", "Vera Araujo-Soares", "Balsam Ahmad", "Kyle Montague"
+        ]
+      }
+    ],
+    "2018": [
+      {
+        "title": "Blockchain for Refugees: Current Uses, Opportunites and Considerations",
+        "proceedings": "Presented at CHI 2018 workshop on 'HCI for Blockchain: Studying, Critiquing, Designing, and Envisioning Distributed Ledger Technologies'",
+        "publisher": "ACM",
+        "year": 2018,
+        "authors": [
+          "Reem Talhouk", "Kyle Montague", "Andrew Garbett"
+        ]
+      },
+      {
+        "title": "ThinkActive: Designing for Pseudonymous Activity Tracking in the Classroom",
+        "proceedings": "In Proc. CHI 2018",
+        "publisher": "ACM",
+        "year": 2018,
+        "authors": [
+          "Andrew Garbett", "David Chatting", "Gerard Wilkinson", "Clement Lee", "Ahmed Kharrufa"
+        ]
+      },
+      {
+        "title": "A Network Epidemic Model for Online Community Commissioning Data",
+        "proceedings": "In Statistics and Computing 2018",
+        "publisher": "Springer",
+        "year": 2018,
+        "authors": [
+          "Clement Lee", "Andrew Garbett", "Darren J. Wilkinson"
+        ]
+      },
+      {
+        "title": "'Protection on that Erection?': Discourses of Accountability & Compromising Participation in Digital Sexual Health",
+        "proceedings": "In Proc. CHI 2018",
+        "publisher": "ACM",
+        "year": 2018,
+        "authors": [
+          "Matthew Wood", "Andrew Garbett", "Kellie Morrissey", "Peter Hopkins", "Madeline Balaam"
+        ]
+      }
+    ],
+    "2017": [
+      {
+        "title": "Care and Connect: Exploring Dementia-friendliness Through an Online Community Commissioning Platform",
+        "proceedings": "In Proc. CHI 2017",
+        "publisher": "ACM",
+        "year": 2017,
+        "authors": [
+          "Kellie Morrissey", "Andrew Garbett", "Edward Jenkins", "Patrick Olivier", "Pete Wright", "Katie Brittain"
+        ]
+      },
+      {
+        "title": "Experiences of Delivering a Public Health Data Service",
+        "proceedings": "In Proc. CHI 2017",
+        "publisher": "ACM",
+        "year": 2017,
+        "authors": [
+          "Emma Simpson", "Robert Comber", "Andrew Garbett", "Edward Jenkins", "Madeline Balaam"
+        ]
+      },
+      {
+        "title": "On Speculative Enactments",
+        "proceedings": "In Proc. CHI 2017",
+        "publisher": "ACM",
+        "year": 2017,
+        "authors": [
+          "Chris Elsden", "David Chatting", "Andrew Garbett", "Bettina Nissen", "David Kirk", "John Vines", "Abigail Durrant"
+        ]
+      }
+    ],
+    "2016": [
+      {
+        "title": "Factors Important For Women Who Breastfeed in Public: A Content Analysis of Review Data from FeedFinder",
+        "proceedings": "In BMJ Open",
+        "publisher": "BMJ Publishing Group",
+        "year": 2016,
+        "authors": [
+          "Emma Simpson", "Andrew Garbett", "Robert Comber", "Madeline Balaam"
+        ]
+      },
+      {
+        "title": "App Movement: A Platform for Community Commissioning of Mobile Applications",
+        "proceedings": "In Proc CHI 2016",
+        "publisher": "ACM",
+        "year": 2016,
+        "authors": [
+          "Andrew Garbett", "Robert Comber", "Ed Jenkins", "Patrick Olivier"
+        ]
+      },
+      {
+        "title": "Metadating: Exploring the Romance and Future of Personal Data",
+        "proceedings": "In Proc CHI 2016",
+        "publisher": "ACM",
+        "year": 2016,
+        "authors": [
+          "Chris Elsden", "Bettina Nissen", "Andrew Garbett", "David Chatting", "David S. Kirk", "John Vines"
+        ]
+      },
+      {
+        "title": "App Movement: Collaborative Design of Mobile Applications for Communities",
+        "proceedings": "Presented at CHI 2016 Workshop on 'Crowd Dynamics: Exploring Conflicts and Contradictions in Crowdsourcing'",
+        "publisher": "ACM",
+        "year": 2016,
+        "authors": [
+          "Andrew Garbett", "Ed Jenkins", "Robert Comber", "Patrick Olivier"
+        ]
+      },
+      {
+        "title": "I Don’t Know What I’m Looking For: Better Understanding Public Usage and Behaviours with Tyne & Wear Archives & Museums Online Collections",
+        "proceedings": "In Proc. Museums and the Web 2016",
+        "publisher": "Archives & Museum Informatics",
+        "year": 2016,
+        "authors": [
+          "John Coburn", "Andrew Garbett", "Phil Gossett", "Richard Harper", "Peter Wright"
+        ]
+      }
+    ],
+    "2015": [
+      {
+        "title": "FeedFinder: A Location-mapping Mobile Application for Breastfeeding Women",
+        "proceedings": "In Proc CHI 2015",
+        "publisher": "ACM",
+        "year": 2015,
+        "authors": [
+          "Madeline Balaam", "Robert Comber", "Ed Jenkins", "Andrew Garbett"
+        ]
+      }
+    ],
+    "2014": [
+      {
+        "title": "Finding Real People: Trust and Diversity in the Interface Between Professional and Citizen Journalists",
+        "proceedings": "In Proc CHI 2014",
+        "publisher": "ACM",
+        "year": 2014,
+        "authors": [
+          "Andrew Garbett", "Robert Comber", "Paul Egglestone", "Maxine Glancy", "Patrick Olivier"
+        ]
+      },
+      {
+        "title": "Fearsquare: Hacking Open Crime Data to Critique, Jam and Subvert the 'Aesthetic of Danger'",
+        "proceedings": "In Proc HCI Korea 2014",
+        "publisher": "ACM",
+        "year": 2014,
+        "authors": [
+          "Andrew Garbett", "Jamie Wardman", "Ben Kirman", "Conor Linehan", "Shaun Lawson"
+        ]
+      }
+    ],
+    "2013": [
+      {
+        "title": "Validating a Mobile Phone Application for the Everyday, Unobtrusive, Objective Measurement of Sleep",
+        "proceedings": "In Proc CHI 2013",
+        "publisher": "ACM",
+        "year": 2013,
+        "authors": [
+          "Shaun Lawson", "Sue Jamison-Powell", "Andrew Garbett", "Conor Linehan", "Erica Kucharczyk", "Sanne Verbaan", "Duncan Rowland", "Kevin Morgan"
+        ]
+      }
+    ],
+    "2012": [
+      {
+        "title": "How Dangerous is Your Life? Personalising Government Open Crime Data",
+        "proceedings": "Presented at ACM CHI 2012 Workshop on Personal Informatics in Practice: Improving Quality of Life Through Data",
+        "publisher": "ACM",
+        "year": 2012,
+        "authors": [
+          "Andrew Garbett", "Conor Linehan", "Ben Kirman", "Jamie Wardman", "Shaun Lawson"
+        ]
+      },
+      {
+        "title": "I Can't Get No Sleep: Discussing #insomnia on Twitter",
+        "proceedings": "In Proc CHI 2012",
+        "publisher": "ACM",
+        "year": 2012,
+        "authors": [
+          "Sue Jamison-Powell", "Conor Linehan", "Laura Daley", "Andrew Garbett", "Shaun Lawson"
+        ]
+      }
+    ]
+  }
+}
