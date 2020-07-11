@@ -1,21 +1,4 @@
 <template lang="pug">
-//- div
-  //- nav.navbar(role="navigation" aria-label="main navigation")
-  //-   .navbar-brand
-  //-     a.navbar-item(href="/") Andy Garbett
-  //-     a.navbar-burger.burger(role="button" aria-label="menu" aria-expanded="false" data-target="mainNavbar")
-  //-     span(aria-hidden="true")
-  //-     span(aria-hidden="true")
-  //-     span(aria-hidden="true")
-
-  //-   #mainNavbar.navbar-menu
-  //-     .navbar-start
-  //-       a.navbar-item Projects
-  //-       a.navbar-item Publications
-  //-       a.navbar-item Contact
-
-  //-   .navbar-end
-  //-     .navbar-item
 div
   b-navbar
     template(slot="brand")
@@ -28,6 +11,11 @@ div
   section.main-content
     .container
       nuxt
+  footer.footer
+    .container
+      .columns
+        .column.has-text-centered
+          p Crafted by Andy Garbett
 </template>
 
 <script>

@@ -71,15 +71,15 @@
 <script>
 import Projects from '@/components/Projects'
 export default {
-  components: [
+  components: {
     Projects
-  ],
+  },
   async asyncData ({ $content, error }) {
     try {
       const page = await $content('index').fetch()
       const bio = await $content('bio').fetch()
       const projects = await $content('projects').only(['title', 'subtitle', 'order', 'photo', 'summary']).sortBy('order').fetch()
-      const publications = await $content('publications').sortBy('publications', 'asc').fetch()
+      const publications = await $content('publications').sortBy('year').fetch()
       return {
         page,
         bio,
