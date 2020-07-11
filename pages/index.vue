@@ -10,7 +10,7 @@
         figure.image
           img(:src="bio.photo")
     .columns.is-centered.has-text-centered
-      .column.is-6
+      .column.is-10
         nuxt-content(:document="bio")
     .columns.is-centered.has-text-centered
       .column.is-6
