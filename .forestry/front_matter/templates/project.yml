@@ -1,0 +1,16 @@
+---
+label: Project
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: file
+  name: photo
+  label: photo
+- type: textarea
+  name: summary
+  label: summary
