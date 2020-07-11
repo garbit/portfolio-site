@@ -7,14 +7,14 @@
 
 <script>
 export default {
-  async asyncData ({ params, payload }) {
-    if (payload) {
-      return { blogPost: payload }
-    }
+  // async asyncData ({ params, payload }) {
+  //   if (payload) {
+  //     return { blogPost: payload }
+  //   }
 
-    return {
-      blogPost: await require(`~/assets/content/blog/${params.blog}.json`)
-    }
-  }
+  //   return {
+  //     blogPost: null
+  //   }
+  // }
 }
 </script>

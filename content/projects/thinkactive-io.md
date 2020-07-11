@@ -1,6 +1,7 @@
 ---
 title: ThinkActive.io
 subtitle: Encouraging primary aged school children to reflect on their personal activity data in the classroom
+order: 1
 photo: /images/project-thinkactive.png
 summary: ThinkActive uses inexpensive activity trackers combined with a classroom situated base station and pseudonymous avatars to engage primary school children in understanding their personal informatics data. Designed in collaboration with Newcastle United Foundation the ThinkActive system demonstrates the potential to understand activity tracking at the population level.
 ---

@@ -1,6 +1,7 @@
 ---
 title: IRISMsg.io
 subtitle: A distributed community SMS donation platform inspired by the Solidarity Economy
+order: 3
 photo: "/images/project-irismsg.png"
 summary: Iris, is a system that allows sending SMS text messages to a list of subscribers through SMS donors. People supporting your organisation, group or case can sign up to become 'donors' and donate a number of their SMS messages for your cause. Every time that you need to send a text to a list of subscribers (e.g. volunteers, staff, followers etc.) you share the cost of the text messages sent.
 ---

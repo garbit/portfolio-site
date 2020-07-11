@@ -42,7 +42,7 @@ export default {
     try {
       const page = await $content('index').fetch()
       const bio = await $content('bio').fetch()
-      const projects = await $content('projects').only(['title', 'subtitle', 'photo', 'summary']).fetch()
+      const projects = await $content('projects').only(['title', 'subtitle', 'order', 'photo', 'summary']).sortBy('order').fetch()
       return {
         page,
         bio,

@@ -1,6 +1,7 @@
 ---
 title: Collections Dive
 subtitle: A novel discovery interface for exploring online museum collections.
+order: 4
 photo: "/images/project-collectionsdive.jpg"
 summary: In collaboration with Tyne & Wear Archives and Museums, Nesta and Microsoft
   Research, I developed a novel discovery interface that aims to improve public access
