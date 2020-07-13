@@ -1,5 +1,68 @@
 [
   {
+    "title": "CryptoCam: Privacy Conscious Open Circuit Television",
+    "proceedings": "arXiv preprint",
+    "publisher": "arXiv:2004.08602",
+    "year": 2019,
+    "authors": [
+      "Gerard Wilkinson", "Dan Jackson", "Andrew Garbett", "Reuben Kirkham", "Kyle Montague"
+    ]
+  },
+  {
+    "title": "Integrating Health Technologies in Health Services for Syrian Refugees in Lebanon: Qualitative Study",
+    "proceedings": "Journal of Medical Internet Research",
+    "publisher": "JMIR Publications Inc",
+    "year": 2019,
+    "authors": [
+      "Reem Talhouk", "Chaza Akik", "Vera Araujo-Soares", "Balsam Ahmad", "Sandra Mesmar", "Patrick Olivier", "Madeline Balaam", "Kyle Montague", "Andrew Garbett", "Hala Ghattas"
+    ]
+  },
+  {
+    "title": "Involving Syrian refugees in design research: Lessons learnt from the field",
+    "proceedings": "In Proc. DIS 2019",
+    "publisher": "ACM",
+    "year": 2019,
+    "authors": [
+      "Reem Talhouk", "Madeline Balaam", "Austin L Toombs", "Andrew Garbett", "Chaza Akik", "Hala Ghattas", "Vera Araujo-Soares", "Balsam Ahmad", "Kyle Montague"
+    ]
+  },
+  {
+    "title": "Vocalising Violence: Using violent mens' voices for service delivery and feedback",
+    "proceedings": "In Proc. Communities & Technologies 2019",
+    "publisher": "ACM",
+    "year": 2019,
+    "authors": [
+      "Rosanna Bellini", "Jay Rainey", "Andrew Garbett", "Pamela Briggs"
+    ]
+  },
+  {
+    "title": "A Call For Embedding Dignity In Humanitarian Technologies",
+    "proceedings": "In Proc. Communities & Technologies 2019",
+    "publisher": "ACM",
+    "year": 2019,
+    "authors": [
+      "Reem Talhouk", "Kyle Montague", "Andrew Garbett", "Vera Araújo-Soares", "Chaza Akik", "Hala Ghattas", "Balsam Ahmad", "Madeline Balaam"
+    ]
+  },
+  {
+    "title": "WhatFutures: Designing Large-Scale Engagements on WhatsApp",
+    "proceedings": "In Proc. CHI 2019",
+    "publisher": "ACM",
+    "year": 2019,
+    "authors": [
+      "Daniel Lambton-Howard", "Robert Anderson", "Kyle Montague", "Andrew Garbett", "Shaun Hazeldine", "Carlos Alvarez", "John A Sweeney", "Patrick Olivier", "Ahmed Kharrufa", "Tom Nappey"
+    ]
+  },
+  {
+    "title": "Weaving the topics of CHI: Using citation network analysis to explore emerging trends",
+    "proceedings": "Extended Abstract CHI 2019",
+    "publisher": "ACM",
+    "year": 2019,
+    "authors": [
+      "Clement Lee", "Andrew Garbett", "Junyan Wang", "Bingzhang Hu", "Dan Jackson"
+    ]
+  },
+  {
     "title": "Blockchain for Refugees: Current Uses, Opportunites and Considerations",
     "proceedings": "Presented at CHI 2018 workshop on 'HCI for Blockchain: Studying, Critiquing, Designing, and Envisioning Distributed Ledger Technologies'",
     "publisher": "ACM",

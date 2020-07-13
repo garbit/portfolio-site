@@ -34,7 +34,7 @@
               span.has-text-weight-semibold Designing Community Driven Participatory Platforms
               span.is-italic : Reconfiguring Roles, Resources, Infrastructure, and Constraints for Community Commissioning.
             br
-            p.is-family-primary Ph.D. Computing Science (Human-Computer Interaction), School of Computing Science, Newcastle Unviersity.
+            p.has-text-weight-medium.is-family-primary Ph.D. Computing Science (Human-Computer Interaction), School of Computing Science, Newcastle Unviersity.
             .content
               ul
                 li Explored the design of tools, platforms, and services to maximize reach and depth of citizen participation in the generation of community-driven information resources.
@@ -49,7 +49,7 @@
         .columns.is-centered.is-multiline
           .column.is-10
             h3.title.is-size-4.is-family-primary Recent Talk
-            p.has-text-weight-semibold ThinkActive: Designing for Pseudonymous Activity Tracking in the Classroom
+            h4.is-size-5.has-text-weight-semibold.is-family-primary ThinkActive: Designing for Pseudonymous Activity Tracking in the Classroom
             p Andrew Garbett, David Chatting, Gerard Wilkinson, Clement Lee, Ahmed Kharrufa. In Proc. CHI 2018. ACM.
           .column.is-10
             .video-container
@@ -67,10 +67,24 @@
             p Full publication list can be found on Google Scholar
         .columns.is-centered.is-multiline
           .publication.column.is-10(v-for="(publication, i) in publications" :key="publication.title")
-            p.has-text-weight-semibold.is-family-primary {{ publication.title }}
-            p
-              span(v-for="(author, index) in publication.authors" :class="isMainAuthor(author)") {{ author }}, #{' '}
-              span {{ publication.proceedings }}. {{ publication.publisher }}.
+            h4.is-size-5.has-text-weight-semibold.is-family-primary {{ publication.title }}
+            p.is-size-6
+              span(v-for="(author, index) in publication.authors" :class="isMainAuthor(author)") {{ author }}
+                span(v-if="index < (publication.authors.length - 1)") , #{' '}
+            p.is-size-6 {{ publication.proceedings }}. {{ publication.publisher }}.
+
+    .columns.is-centered
+      .column.is-6
+        hr.small
+
+    section.section
+      .container
+        .columns.is-centered.is-multiline.has-text-centered
+          .column.is-10
+            h3.title.is-size-4.is-family-primary Contact
+          .column.is-10
+            p a.garbett@samsung.com
+            p @garbit
 </template>
 
 <script>
@@ -89,7 +103,7 @@ export default {
   methods: {
     isMainAuthor (author) {
       if (author === this.author) {
-        return 'is-italic'
+        return 'has-text-weight-medium'
       }
       return false
     }
@@ -121,6 +135,7 @@ export default {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  margin-top: 2rem;
 }
 
 .video-container iframe,
