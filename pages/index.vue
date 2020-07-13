@@ -65,21 +65,42 @@
           .column.is-10
             h3.title.is-size-4.is-family-primary Publications
             p Full publication list can be found on Google Scholar
-            pre {{ publications }}
+        .columns.is-centered.is-multiline
+          .publication.column.is-10(v-for="(publication, i) in publications" :key="publication.title")
+            p.has-text-weight-semibold.is-family-primary {{ publication.title }}
+            p
+              span(v-for="(author, index) in publication.authors" :class="isMainAuthor(author)") {{ author }}, #{' '}
+              span {{ publication.proceedings }}. {{ publication.publisher }}.
 </template>
 
 <script>
 import Projects from '@/components/Projects'
+import Publications from '@/content/publications.json'
+
 export default {
   components: {
     Projects
+  },
+  data: () => {
+    return {
+      author: 'Andrew Garbett'
+    }
+  },
+  methods: {
+    isMainAuthor (author) {
+      if (author === this.author) {
+        return 'is-italic'
+      }
+      return false
+    }
   },
   async asyncData ({ $content, error }) {
     try {
       const page = await $content('index').fetch()
       const bio = await $content('bio').fetch()
       const projects = await $content('projects').only(['title', 'subtitle', 'order', 'photo', 'summary']).sortBy('order').fetch()
-      const publications = await $content('publications').sortBy('year').fetch()
+      // const publications = await $content('publications').sortBy('year').fetch()
+      const publications = Publications
       return {
         page,
         bio,
