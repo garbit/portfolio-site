@@ -15,6 +15,7 @@ fields:
   name: summary
   label: summary
 pages:
+- content/projects/app-movement.md
 - content/projects/collections-dive.md
 - content/projects/feed-finder.md
 - content/projects/irismsg-io.md
