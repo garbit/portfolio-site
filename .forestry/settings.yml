@@ -19,7 +19,7 @@ sections:
   path: content/index.md
   label: Index
 upload_dir: static
-public_path: ''
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
