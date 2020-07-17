@@ -1,3 +1,8 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/portfolio-site/'
+  }
+} : {}
 
 export default {
   /*
@@ -75,7 +80,5 @@ export default {
   */
   build: {
   },
-  router: {
-    base: '/portfolio-site/'
-  }
+  ...routerBase
 }
