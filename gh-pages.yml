@@ -34,7 +34,7 @@ jobs:
 
     # Install packages
     - run: npm ci
-    - run: npm run generate:gh-pages
+    - run: npm run generate
 
     # deploy
     - name: deploy
