@@ -1,5 +1,5 @@
 ---
-photo: "/images/andy.jpeg"
+photo: "images/andy.jpeg"
 cv: something.pdf
 
 ---
