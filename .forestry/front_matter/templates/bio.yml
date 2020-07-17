@@ -1,0 +1,10 @@
+---
+label: Bio
+hide_body: false
+fields:
+- type: text
+  name: photo
+  label: photo
+- type: file
+  name: cv
+  label: cv
