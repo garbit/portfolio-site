@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/publications.json
   label: Publications
-  match: "**/*"
 - type: directory
   path: content/projects
   label: Projects
