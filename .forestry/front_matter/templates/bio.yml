@@ -11,3 +11,5 @@ fields:
     maxSize: 64
   label: Profile Photo
   description: Select your profile photo
+pages:
+- content/bio.md
