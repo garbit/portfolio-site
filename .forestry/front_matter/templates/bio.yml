@@ -2,9 +2,12 @@
 label: Bio
 hide_body: false
 fields:
-- type: text
-  name: photo
-  label: photo
 - type: file
   name: cv
   label: cv
+- name: photo
+  type: file
+  config:
+    maxSize: 64
+  label: Profile Photo
+  description: Select your profile photo
