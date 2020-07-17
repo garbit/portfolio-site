@@ -2,7 +2,7 @@
 title: Feed Finder
 subtitle: Enabling mothers to create community driven information resource around breastfeeding in public.
 order: 5
-photo: "/images/project-feedfinder.jpg"
+photo: images/project-feedfinder.jpg
 summary: The FeedFinder app enables new mothers to locate suitable breastfeeding locations
   nearby. Mothers can also rate and review the places they visit and contribute to
   the worldwide mapping of breastfeeding friendly locations. The app is available

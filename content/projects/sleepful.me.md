@@ -2,7 +2,7 @@
 title: Sleepful.me
 subtitle: A Sleep Social Network for the delivery of Cognitive Behavioural Therapy for those living with Insomnia.
 order: 6
-photo: "/images/project-sleepful.png"
+photo: images/project-sleepful.png
 summary: Sleepful is a social network designed to improve access to evidence-based
   guided self-help for insomnia. The platform delivers Cognitive Behavioural Therapy
   in a group setting for those living with insomnia in order to promote healthy sleeping
