@@ -75,6 +75,16 @@
 
     section.section
       .container
+        .columns.is-centered.is-multiline
+          .column.is-10
+            h3.title.is-size-4.is-family-primary Conferences & Events
+        .columns.is-centered.is-multiline
+          .event.column.is-10
+            div(v-for="(event, i) in events" :key="event.name")
+              p.is-size-6.is-family-primary {{ event.name }}
+
+    section.section
+      .container
         .columns.is-centered.is-multiline.has-text-centered
           .column.is-10
             h3.title.is-size-4.is-family-primary Contact
@@ -87,6 +97,7 @@
 import Projects from '@/components/Projects'
 import YouTubeVideo from '@/components/YouTubeVideo'
 import Publications from '@/content/publications.json'
+import Events from '@/content/events.json'
 
 export default {
   components: {
@@ -113,11 +124,13 @@ export default {
       const projects = await $content('projects').only(['title', 'subtitle', 'order', 'photo', 'summary']).sortBy('order').fetch()
       // const publications = await $content('publications').sortBy('year').fetch()
       const publications = Publications
+      const events = Events
       return {
         page,
         bio,
         projects,
-        publications
+        publications,
+        events
       }
     } catch (e) {
       error({ statusCode: 404, message: 'Page not found' })
@@ -134,6 +147,6 @@ hr.small {
   margin-bottom: 1rem;
 }
 .section.is-small {
-  padding: 1.5rem;
+  padding: 1.25rem;
 }
 </style>
