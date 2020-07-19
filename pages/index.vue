@@ -57,31 +57,11 @@
 
     hr.small
 
-    section.section
-      .container
-        .columns.is-centered.is-multiline
-          .column.is-10
-            h3.title.is-size-4.is-family-primary Publications
-            p Full publication list can be found on Google Scholar
-        .columns.is-centered.is-multiline
-          .publication.column.is-10(v-for="(publication, i) in publications" :key="publication.title")
-            h4.is-size-5.has-text-weight-semibold.is-family-primary {{ publication.title }}
-            p.is-size-6
-              span(v-for="(author, index) in publication.authors" :class="isMainAuthor(author)") {{ author }}
-                span(v-if="index < (publication.authors.length - 1)") , #{' '}
-            p.is-size-6 {{ publication.proceedings }}. {{ publication.publisher }}.
+    Publications(:publicationsList="publicationsList")
 
     hr.small
 
-    section.section
-      .container
-        .columns.is-centered.is-multiline
-          .column.is-10
-            h3.title.is-size-4.is-family-primary Conferences & Events
-        .columns.is-centered.is-multiline
-          .event.column.is-10
-            div(v-for="(event, i) in events" :key="event.name")
-              p.is-size-6.is-family-primary {{ event.name }}
+    Events(:eventList="eventList")
 
     section.section
       .container
@@ -96,13 +76,17 @@
 <script>
 import Projects from '@/components/Projects'
 import YouTubeVideo from '@/components/YouTubeVideo'
-import Publications from '@/content/publications.json'
-import Events from '@/content/events.json'
+import Publications from '@/components/Publications'
+import Events from '@/components/Events'
+import PublicationsList from '@/content/publications.json'
+import EventList from '@/content/events.json'
 
 export default {
   components: {
     Projects,
-    YouTubeVideo
+    YouTubeVideo,
+    Publications,
+    Events
   },
   data: () => {
     return {
@@ -123,14 +107,31 @@ export default {
       const bio = await $content('bio').fetch()
       const projects = await $content('projects').only(['title', 'subtitle', 'order', 'photo', 'summary']).sortBy('order').fetch()
       // const publications = await $content('publications').sortBy('year').fetch()
-      const publications = Publications
-      const events = Events
+      const publications = PublicationsList
+      const publicationYears = [...new Set(publications.map(p => p.year))].sort().reverse()
+      const publicationsList = []
+      publicationYears.forEach((year) => {
+        publicationsList.push({
+          year,
+          publications: publications.filter(p => p.year === year)
+        })
+      })
+
+      const events = EventList
+      const eventYears = [...new Set(events.map(e => e.year))].sort().reverse()
+      const eventList = []
+      eventYears.forEach((year) => {
+        eventList.push({
+          year,
+          events: events.filter(e => e.year === year)
+        })
+      })
       return {
         page,
         bio,
         projects,
-        publications,
-        events
+        publicationsList,
+        eventList
       }
     } catch (e) {
       error({ statusCode: 404, message: 'Page not found' })

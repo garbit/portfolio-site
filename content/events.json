@@ -2,161 +2,193 @@
   {
     "year": 2019,
     "month": "June",
-    "name": "Chain Re:Action: Feminist Thinking & Community Economies in Blockchain (Glasgow, UK)"
+    "location": "Glasgow, UK",
+    "name": "Chain Re:Action: Feminist Thinking & Community Economies in Blockchain"
   },
   {
     "year": 2019,
     "month": "May",
-    "name": "ACM International Conference on Human Factors in Computing 2019 (Glasgow, UK)"
+    "location": "Glasgow, UK",
+    "name": "ACM International Conference on Human Factors in Computing 2019"
   },
   {
     "year": 2019,
     "month": "Feb",
-    "name": "Fuse Event: Exploring Government Open Data to Promote Breastfeeding (Newcastle, UK)"
+    "location": "Newcastle, UK",
+    "name": "Fuse Event: Exploring Government Open Data to Promote Breastfeeding"
   },
   {
     "year": 2019,
     "month": "Jan",
-    "name": "UK GOV Distributed Ledger Technology Community of Interest (London, UK)"
+    "location": "London, UK",
+    "name": "UK GOV Distributed Ledger Technology Community of Interest"
   },
   {
     "year": 2019,
     "month": "Sept",
-    "name": "T3 Tech Innovation for the Future Awards (London, UK)"
+    "location": "London, UK",
+    "name": "T3 Tech Innovation for the Future Awards"
   },
   {
     "year": 2018,
     "month": "Sept",
-    "name": "T3 Tech Innovation Forum (Newcastle, UK)"
+    "location": "Newcastle, UK",
+    "name": "T3 Tech Innovation Forum"
   },
   {
     "year": 2018,
     "month": "April",
-    "name": "ACM International Conference on Human Factors in Computing 2018 (Montreal, Canada)"
+    "location": "Montreal, Canada",
+    "name": "ACM International Conference on Human Factors in Computing 2018"
   },
   {
     "year": 2017,
     "month": "June",
-    "name": "8th International Conference on Communities and Technologies (Troyes, France)"
+    "location": "Troyes, France",
+    "name": "8th International Conference on Communities and Technologies"
   },
   {
     "year": 2017,
     "month": "June",
-    "name": "4th European Solidarity Economy Congress (Athens, Greece)"
+    "location": "Athens, Greece",
+    "name": "4th European Solidarity Economy Congress"
   },
   {
     "year": 2017,
     "month": "May",
-    "name": "National Workers Education Association 'Get Connected' membership event (Newcastle, UK)"
+    "location": "Newcastle, UK",
+    "name": "National Workers Education Association 'Get Connected' membership event"
   },
   {
     "year": 2017,
     "month": "Jan",
-    "name": "CHERISH Digital Economy Centre Networking Event (Swansea, UK)"
+    "location": "Swansea, UK",
+    "name": "CHERISH Digital Economy Centre Networking Event"
   },
   {
     "year": 2016,
     "month": "Dec",
-    "name": "Remake a Museum: Great North Museum Design Challenge Hack Event (Newcastle, UK)"
+    "location": "Newcastle, UK",
+    "name": "Remake a Museum: Great North Museum Design Challenge Hack Event"
   },
   {
     "year": 2016,
     "month": "June",
-    "name": "Foundation for Art and Creative Technology: Designing Digital Now Exhibition (Liverpool, UK)"
+    "location": "Liverpool, UK",
+    "name": "Foundation for Art and Creative Technology: Designing Digital Now Exhibition"
   },
   {
     "year": 2016,
     "month": "May",
-    "name": "ACM International Conference on Human Factors in Computing 2016 (San Jose, USA)"
+    "location": "(SanJose, USA",
+    "name": "ACM International Conference on Human Factors in Computing 2016"
   },
   {
     "year": 2016,
     "month": "March",
-    "name": "The Creative Exchange All Hands Meet (Lancaster, UK)"
+    "location": "Lancaster, UK",
+    "name": "The Creative Exchange All Hands Meet"
   },
   {
     "year": 2016,
     "month": "Feb",
-    "name": "International Development Conference 2016 (Newcastle, UK)"
+    "location": "Newcastle, UK",
+    "name": "International Development Conference 2016"
   },
   {
     "year": 2015,
     "month": "Dec",
-    "name": "Digital Economy 'Connected Nation: Thriving in a Digital World' at British Library (London, UK)"
+    "location": "London, UK",
+    "name": "Digital Economy 'Connected Nation: Thriving in a Digital World' at British Library"
   },
   {
     "year": 2015,
     "month": "Dec",
-    "name": "Dementia Friendly Communities Annual Conference (Newcastle, UK)"
+    "location": "Newcastle, UK",
+    "name": "Dementia Friendly Communities Annual Conference"
   },
   {
     "year": 2015,
     "month": "Nov",
-    "name": "The Creative Exchange: Driving Value and Business Innovation through Collaboration at House of Commons (London, UK)"
+    "location": "London, UK",
+    "name": "The Creative Exchange: Driving Value and Business Innovation through Collaboration at House of Commons"
   },
   {
     "year": 2015,
     "month": "July",
-    "name": "British HCI (Lincoln, UK)"
+    "location": "Lincoln, UK",
+    "name": "British HCI"
   },
   {
     "year": 2015,
     "month": "May",
-    "name": "Create4Dementia Hack Event (Newcastle, UK)"
+    "location": "Newcastle, UK",
+    "name": "Create4Dementia Hack Event"
   },
   {
     "year": 2015,
     "month": "May",
-    "name": "ACM International Conference on Human Factors in Computing (Seoul, Korea)"
+    "location": "Seoul, Korea",
+    "name": "ACM International Conference on Human Factors in Computing"
   },
   {
     "year": 2015,
     "month": "March",
-    "name": "The Impacts of Civic Technology Conference 2015 (London, UK)"
+    "location": "London, UK",
+    "name": "The Impacts of Civic Technology Conference 2015"
   },
   {
     "year": 2014,
     "month": "July",
-    "name": "Digital Democracy: Alive to Engagement (Cardiff, UK)"
+    "location": "Cardiff, UK",
+    "name": "Digital Democracy: Alive to Engagement"
   },
   {
     "year": 2014,
     "month": "June",
-    "name": "ACM International Conference on Interactive Experiences for TV and Online Video (Newcastle, UK)"
+    "location": "Newcastle, UK",
+    "name": "ACM International Conference on Interactive Experiences for TV and Online Video"
   },
   {
     "year": 2014,
     "month": "May",
-    "name": "ACM International Conference on Human Factors in Computing (Toronto, Canada)"
+    "location": "Toronto, Canada",
+    "name": "ACM International Conference on Human Factors in Computing"
   },
   {
     "year": 2013,
     "month": "Nov",
-    "name": "Rewired State Parliament Hackathon #Parlihack2013 (London, UK)"
+    "location": "London, UK",
+    "name": "Rewired State Parliament Hackathon #Parlihack2013"
   },
   {
     "year": 2013,
     "month": "Oct",
-    "name": "BBC #NewsHack2013 Hack Event (London, UK)"
+    "location": "London, UK",
+    "name": "BBC #NewsHack2013 Hack Event"
   },
   {
     "year": 2013,
     "month": "Sept",
-    "name": "The Creative Exchange: Knowledge Exchange Conference (Lancaster, UK)"
+    "location": "Lancaster, UK",
+    "name": "The Creative Exchange: Knowledge Exchange Conference"
   },
   {
     "year": 2013,
     "month": "May",
-    "name": "ACM International Conference on Human Factors in Computing (Paris, France)"
+    "location": "Paris, France",
+    "name": "ACM International Conference on Human Factors in Computing"
   },
   {
     "year": 2012,
     "month": "Sept",
-    "name": "HCI2012 People and Computers XXVI (Birmingham, UK)"
+    "location": "Birmingham, UK",
+    "name": "HCI2012 People and Computers XXVI"
   },
   {
     "year": 2012,
     "month": "May",
-    "name": "ACM International Conference on Human Factors in Computing (Austin, USA)"
+    "location": "Austin, USA",
+    "name": "ACM International Conference on Human Factors in Computing"
   }
 ]
