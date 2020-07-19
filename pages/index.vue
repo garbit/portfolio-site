@@ -14,7 +14,7 @@
             figure.image
               img(:src="bio.photo")
         .columns.is-centered.has-text-centered
-          .column.is-10
+          .column.is-8
             h2.title.is-size-5.is-family-primary {{ page.description }}
             nuxt-content(:document="bio")
         .columns.is-centered.has-text-centered
@@ -87,19 +87,6 @@ export default {
     YouTubeVideo,
     Publications,
     Events
-  },
-  data: () => {
-    return {
-      author: 'Andrew Garbett'
-    }
-  },
-  methods: {
-    isMainAuthor (author) {
-      if (author === this.author) {
-        return 'has-text-weight-medium'
-      }
-      return false
-    }
   },
   async asyncData ({ $content, error }) {
     try {
