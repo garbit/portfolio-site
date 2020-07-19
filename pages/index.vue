@@ -1,29 +1,32 @@
 <template lang="pug">
   div
-    section
+    section.section.is-small
       .container.has-text-centered
         h1.title.is-size-3.is-family-primary {{ page.title }}
         h2.subtitle.is-size-6 Software Engineer / Interaction Designer / UX Researcher
-    hr
-    .columns.is-mobile.is-centered
-      .column.is-3-desktop.is-5-tablet.is-8-mobile
-        figure.image
-          img(:src="bio.photo")
-    .columns.is-centered.has-text-centered
-      .column.is-10
-        h2.title.is-size-5.is-family-primary {{ page.description }}
-        nuxt-content(:document="bio")
-    .columns.is-centered.has-text-centered
-      .column.is-6
-        a(:href="bio.cv" target="_blank")
-          b-button.button.is-family-secondary.is-primary.is-rounded Curriculum Vitae
-        hr
 
-    projects(:projects="projects")
+    hr.small
 
-    .columns.is-centered
-      .column.is-6
-        hr
+    section.section.is-small
+      .container
+        .columns.is-mobile.is-centered
+          .column.is-3-desktop.is-5-tablet.is-8-mobile
+            figure.image
+              img(:src="bio.photo")
+        .columns.is-centered.has-text-centered
+          .column.is-10
+            h2.title.is-size-5.is-family-primary {{ page.description }}
+            nuxt-content(:document="bio")
+        .columns.is-centered.has-text-centered
+          .column.is-6
+            a(:href="bio.cv" target="_blank")
+              b-button.button.is-family-secondary.is-primary.is-rounded Curriculum Vitae
+
+    hr.small
+
+    Projects(:projects="projects")
+
+    hr.small
 
     section.section
       .container
@@ -40,9 +43,7 @@
                 li Explored the design of tools, platforms, and services to maximize reach and depth of citizen participation in the generation of community-driven information resources.
                 li Launched an online platform that enables communities to collaboratively design and automatically generate location-based review mobile apps resulting in ~125,000 users and 24 mobile applications.
 
-    .columns.is-centered
-      .column.is-6
-        hr.small
+    hr.small
 
     section.section
       .container
@@ -52,12 +53,9 @@
             h4.is-size-5.has-text-weight-semibold.is-family-primary ThinkActive: Designing for Pseudonymous Activity Tracking in the Classroom
             p Andrew Garbett, David Chatting, Gerard Wilkinson, Clement Lee, Ahmed Kharrufa. In Proc. CHI 2018. ACM.
           .column.is-10
-            .video-container
-              iframe(src="https://www.youtube.com/embed/mVZT5GWgdjE" allowfullscreen="allowfullscreen" width="854" height="480" frameborder="0")
+            YouTubeVideo(url="https://www.youtube.com/embed/mVZT5GWgdjE")
 
-    .columns.is-centered
-      .column.is-6
-        hr.small
+    hr.small
 
     section.section
       .container
@@ -73,9 +71,7 @@
                 span(v-if="index < (publication.authors.length - 1)") , #{' '}
             p.is-size-6 {{ publication.proceedings }}. {{ publication.publisher }}.
 
-    .columns.is-centered
-      .column.is-6
-        hr.small
+    hr.small
 
     section.section
       .container
@@ -89,11 +85,13 @@
 
 <script>
 import Projects from '@/components/Projects'
+import YouTubeVideo from '@/components/YouTubeVideo'
 import Publications from '@/content/publications.json'
 
 export default {
   components: {
-    Projects
+    Projects,
+    YouTubeVideo
   },
   data: () => {
     return {
@@ -129,23 +127,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%; /*16:9*/
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-  margin-top: 2rem;
+hr.small {
+  width: 65%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.section.is-small {
+  padding: 1.5rem;
 }
-
 </style>

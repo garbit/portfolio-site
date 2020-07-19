@@ -1,5 +1,5 @@
 <template lang="pug">
-  section
+  section.section.is-small
     .columns.is-centered
       .column.is-6.has-text-centered
         h3.title.is-size-4.is-family-primary Research Projects
@@ -32,7 +32,6 @@ export default {
   .reverse-columns {
     flex-direction: column-reverse;
     display: flex;
-    padding: 1.5rem;
   }
 
   .project {
