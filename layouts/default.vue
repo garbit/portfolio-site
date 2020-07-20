@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+div#app
   b-navbar
     template(slot="brand")
       b-navbar-item(tag="router-link" :to="{ path: '/' }") Andy Garbett
@@ -8,9 +8,10 @@ div
       b-navbar-item(href="#") Publications
       b-navbar-item(href="#") Contact
 
-  section.main-content
-    .container
-      nuxt
+  main
+    section.main-content
+      .container
+        nuxt
   footer.footer
     .container
       .columns
@@ -21,22 +22,6 @@ div
 <script>
 
 export default {
-  data () {
-    return {
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
-    }
-  }
 }
 </script>
 

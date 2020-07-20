@@ -23,3 +23,23 @@
     }
   }
 }
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+hr.small {
+  width: 65%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.section.is-small {
+  padding: 1.25rem;
+}

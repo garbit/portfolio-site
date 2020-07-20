@@ -92,7 +92,7 @@ export default {
     try {
       const page = await $content('index').fetch()
       const bio = await $content('bio').fetch()
-      const projects = await $content('projects').only(['title', 'subtitle', 'order', 'photo', 'summary']).sortBy('order').fetch()
+      const projects = await $content('projects').sortBy('order').fetch()
       // const publications = await $content('publications').sortBy('year').fetch()
       const publications = PublicationsList
       const publicationYears = [...new Set(publications.map(p => p.year))].sort().reverse()
@@ -128,13 +128,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-hr.small {
-  width: 65%;
-  margin: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.section.is-small {
-  padding: 1.25rem;
-}
 </style>

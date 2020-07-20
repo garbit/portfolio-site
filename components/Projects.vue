@@ -12,6 +12,9 @@
               h4.title.is-size-5.is-family-primary {{ project.title }}
               h5.subtitle.is-size-6.is-italic.is-family-primary {{ project.subtitle }}
               p {{ project.summary }}
+              p.more
+                nuxt-link(:to="project.slug")
+                  p.title.is-size-6.is-family-primary Read more
             .column
               figure.image
                 img(:src="project.photo")
@@ -67,5 +70,14 @@ export default {
   hr {
     display: none;
   }
+}
+
+.more {
+  margin-top: 1.5rem;
+  text-decoration: underline;
+}
+
+.more:hover {
+  color: hsl(0, 0%, 86%);
 }
 </style>

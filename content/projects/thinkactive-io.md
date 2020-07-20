@@ -3,6 +3,7 @@ title: ThinkActive.io
 subtitle: Encouraging primary aged school children to reflect on their personal activity
   data in the classroom
 order: 1
+url: https://thinkactivekit.com
 photo: images/project-thinkactive.png
 summary: ThinkActive uses inexpensive activity trackers combined with a classroom
   situated base station and pseudonymous avatars to engage primary school children

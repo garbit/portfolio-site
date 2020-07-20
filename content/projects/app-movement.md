@@ -2,6 +2,7 @@
 title: App Movement
 subtitle: A community commissioning platform to automatically generate mobile apps
 order: 2
+url: https://app-movement.com
 photo: images/project-appmovement.png
 summary: App Movement enables any individual, community or organization to propose,
   design and automatically generate a multi-platform mobile application. The platform
