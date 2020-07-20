@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/portfolio-site/irismsg-io", {data:[],fetch:[],mutations:void 0});
