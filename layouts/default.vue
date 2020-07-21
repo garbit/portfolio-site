@@ -13,10 +13,11 @@ div#app
       .container
         nuxt
   footer.footer
-    .container
-      .columns
-        .column.has-text-centered
-          p Crafted by Andy Garbett
+    .container.has-text-centered
+      p.has-text-weight-semibold 💡 + 🎨 + 🛠️
+      p.has-text-weight-light Crafted by #{' '}
+      p.has-text-weight-semibold Andy Garbett
+
 </template>
 
 <script>
@@ -26,4 +27,11 @@ export default {
 </script>
 
 <style lang="scss">
+.footer {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 </style>

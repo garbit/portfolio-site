@@ -37,11 +37,16 @@
               span.has-text-weight-semibold Designing Community Driven Participatory Platforms
               span.is-italic : Reconfiguring Roles, Resources, Infrastructure, and Constraints for Community Commissioning.
             br
-            p.has-text-weight-medium.is-family-primary Ph.D. Computing Science (Human-Computer Interaction), School of Computing Science, Newcastle Unviersity.
+            p.has-text-weight-medium.is-family-primary Ph.D. Computing Science (Human-Computer Interaction)
+            p.is-family-primary Open Lab, School of Computing Science, Newcastle Unviersity, 2017. #{' '}
+              span (
+                span
+                  nuxt-link(to="/publications/Community Commissioning Designing Platforms to Support Community Driven Information Systems.pdf" target="_blank") pdf
+              span )
             .content
               ul
-                li Explored the design of tools, platforms, and services to maximize reach and depth of citizen participation in the generation of community-driven information resources.
                 li Launched an online platform that enables communities to collaboratively design and automatically generate location-based review mobile apps resulting in ~125,000 users and 24 mobile applications.
+                li Explored the design of tools, platforms, and services to maximize reach and depth of citizen participation in the generation of community-driven information resources.
 
     hr.small
 
@@ -63,14 +68,17 @@
 
     Events(:eventList="eventList")
 
+    hr.small
+
     section.section
       .container
         .columns.is-centered.is-multiline.has-text-centered
           .column.is-10
             h3.title.is-size-4.is-family-primary Contact
           .column.is-10
-            p a.garbett@samsung.com
-            p @garbit
+            p.is-family-primary a.garbett@samsung.com
+            p.is-family-primary
+              a(href="https://twitter.com/garbit" target="_blank") @garbit
 </template>
 
 <script>
