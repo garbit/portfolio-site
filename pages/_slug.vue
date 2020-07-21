@@ -7,15 +7,25 @@
 
     hr.small
 
+    //- section.hero
+    //-   .hero-body
+    //-     .container
+    //-       h4.title.is-size-2.is-family-primary {{ project.title }}
+    //-       h5.subtitle.is-size-5.is-italic.is-family-primary {{ project.subtitle }}
     section.section
       .container
+        .columns.is-centered
+          .column.is-8
+            figure.image
+              img(:src="project.photo")
         .columns.is-centered.is-multiline
           .column.is-8
             h4.title.is-size-2.is-family-primary {{ project.title }}
             h5.subtitle.is-size-5.is-italic.is-family-primary {{ project.subtitle }}
-            p {{ project.summary }}
+        .columns.is-centered.is-multiline
           .column.is-8
-            nuxt-content(:document="project")
+            .content
+              nuxt-content(:document="project")
           .column.is-12.has-text-centered
             a(:href="project.url" target="_blank")
               button.button.is-primary View Project
