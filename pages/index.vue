@@ -3,7 +3,7 @@
     section.section
       .container.has-text-centered
         h1.title.is-size-3.is-family-primary {{ page.title }}
-        h2.subtitle.is-size-6 Software Engineer / Interaction Designer / UX Researcher
+        h2.subtitle.is-size-6.is-size-7-mobile Software Engineer / Interaction Designer / UX Researcher
 
     hr.small
 
