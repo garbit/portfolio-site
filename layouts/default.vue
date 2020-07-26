@@ -12,11 +12,11 @@ div#app
           b-navbar-item.has-text-weight-medium(href="#events") Events
           b-navbar-item.has-text-weight-medium(href="#contact") Contact
 
-  main
-    section.main-content
-      .container
-        transition(name="fade" appear mode="out-in")
-          nuxt
+    main
+      section.main-content
+        .container
+          transition(name="fade" appear mode="out-in" :enter="hasLoaded()")
+            nuxt(v-if="isLoaded")
   footer.footer
     .container.has-text-centered
       p.has-text-weight-semibold 💡 + 🎨 + 🛠️
@@ -28,6 +28,16 @@ div#app
 <script>
 
 export default {
+  data: () => {
+    return {
+      isLoaded: false
+    }
+  },
+  methods: {
+    hasLoaded () {
+      this.isLoaded = true
+    }
+  }
 }
 </script>
 
