@@ -15,7 +15,8 @@ div#app
   main
     section.main-content
       .container
-        nuxt
+        transition(name="fade" appear mode="out-in")
+          nuxt
   footer.footer
     .container.has-text-centered
       p.has-text-weight-semibold 💡 + 🎨 + 🛠️
@@ -37,6 +38,18 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
 }
 
 #navbar {
