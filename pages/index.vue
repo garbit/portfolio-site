@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    section.section.is-small
+    section.section
       .container.has-text-centered
         h1.title.is-size-3.is-family-primary {{ page.title }}
         h2.subtitle.is-size-6 Software Engineer / Interaction Designer / UX Researcher
@@ -20,7 +20,7 @@
         .columns.is-centered.has-text-centered
           .column.is-6
             a(:href="bio.cv" target="_blank")
-              b-button.button.is-family-secondary.is-primary.is-rounded Curriculum Vitae
+              b-button.button.is-family-secondary.is-primary.is-rounded.has-text-weight-medium Curriculum Vitae
 
     hr.small
 
@@ -70,7 +70,7 @@
 
     hr.small
 
-    section.section
+    section#contact.section
       .container
         .columns.is-centered.is-multiline.has-text-centered
           .column.is-10

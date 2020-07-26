@@ -1,12 +1,16 @@
 <template lang="pug">
 div#app
-  b-navbar
-    template(slot="brand")
-      b-navbar-item(tag="router-link" :to="{ path: '/' }") Andy Garbett
-    template(slot="start")
-      b-navbar-item(href="#") Projects
-      b-navbar-item(href="#") Publications
-      b-navbar-item(href="#") Contact
+  section#navbar
+    .container
+      b-navbar.is-spaced
+        template(slot="brand")
+          b-navbar-item.has-text-weight-medium(tag="router-link" :to="{ path: '/' }") Andy Garbett
+        template(slot="end")
+          b-navbar-item.has-text-weight-medium(href="/Andrew-Garbett-CV.pdf" target="_blank") CV
+          b-navbar-item.has-text-weight-medium(href="#projects") Projects
+          b-navbar-item.has-text-weight-medium(href="#publications") Publications
+          b-navbar-item.has-text-weight-medium(href="#events") Events
+          b-navbar-item.has-text-weight-medium(href="#contact") Contact
 
   main
     section.main-content
@@ -33,5 +37,9 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+#navbar {
+  box-shadow: 0 0 2px #e3e3e3;
 }
 </style>

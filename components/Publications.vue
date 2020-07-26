@@ -1,11 +1,12 @@
 <template lang="pug">
-  section.section
+  section#publications.section
     .container
       .columns.is-centered.is-multiline
         .column.is-10
           h3.title.is-size-4.is-family-primary Publications
           p Full publication list can be found on #{' '}
             a(href="https://scholar.google.co.uk/citations?user=4N-DHfgAAAAJ") Google Scholar
+            span .
       .year.columns.is-centered.is-multiline(v-for="(year, i) in publicationsList")
         .column.is-10
           p.is-size-5.has-text-weight-semibold.is-family-primary {{ year.year }}

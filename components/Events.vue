@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.section
+  section#events.section
     .container
       .columns.is-centered.is-multiline
         .column.is-10

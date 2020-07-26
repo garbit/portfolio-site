@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.section.is-small
+  section#projects.section.is-small
     .container
       .columns.is-centered
         .column.is-6.has-text-centered
