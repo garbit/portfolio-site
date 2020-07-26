@@ -15,8 +15,7 @@ div#app
     main
       section.main-content
         .container
-          transition(name="fade" appear mode="out-in" :enter="hasLoaded()")
-            nuxt(v-if="isLoaded")
+          nuxt
   footer.footer
     .container.has-text-centered
       p.has-text-weight-semibold 💡 + 🎨 + 🛠️
@@ -28,16 +27,6 @@ div#app
 <script>
 
 export default {
-  data: () => {
-    return {
-      isLoaded: false
-    }
-  },
-  methods: {
-    hasLoaded () {
-      this.isLoaded = true
-    }
-  }
 }
 </script>
 
@@ -48,18 +37,6 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition-duration: 0.3s;
-  transition-property: opacity;
-  transition-timing-function: ease;
-}
-
-.fade-enter,
-.fade-leave-active {
-  opacity: 0
 }
 
 #navbar {
