@@ -1,8 +1,8 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/portfolio-site/'
-  }
-} : {}
+// const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+//   router: {
+//     base: '/portfolio-site/'
+//   }
+// } : {}
 
 export default {
   /*
@@ -83,6 +83,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  },
-  ...routerBase
+  }
+  // ...routerBase
 }

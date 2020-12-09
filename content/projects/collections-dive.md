@@ -21,3 +21,9 @@ By the end of the project in late August 2015, the development will have gone th
 1. Transform the object catalogue into a playful museum experience that invites users to easily discover objects from Tyne and Wear Archives and Museum’s vast collections.
 2. Create a new model of search and discovery. The search model for museum collections is traditionally designed for research audiences who know what they are looking for. This project expands the reach for museum collections by designing for non-research audiences and delivering content that provokes serendipitous discovery of cultural content.
 3. Turn a static data collection into a living, evolving digital archive. User-centered systems will be developed to capture audience interaction with collections. The search engine iterates over time as audiences explore, continually refining its understanding of what web content is most likely to provoke a user journey through museum collections.
+
+<div class="inline-gallery">
+  <img src="/images/collections-dive-1.jpg" />
+  <img src="/images/collections-dive-2.jpg" />
+  <img src="/images/collections-dive-3.jpg" />
+</div>

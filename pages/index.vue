@@ -76,7 +76,7 @@
           .column.is-10
             h3.title.is-size-4.is-family-primary Contact
           .column.is-10
-            p.is-family-primary a.garbett@samsung.com
+            h4.is-size-5.is-family-primary a.garbett@samsung.com
             p.is-family-primary
               a(href="https://twitter.com/garbit" target="_blank") @garbit
 </template>
