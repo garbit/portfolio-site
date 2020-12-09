@@ -25,6 +25,6 @@ https://www.bbc.co.uk/news/uk-england-tyne-23503384
   <iframe src="https://www.youtube.com/embed/bJMtuUFy9RI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0" class="video"></iframe>
 </div>
 
-<img src="/images/feedfinder-dashboard-1.png" />
-<img src="/images/feedfinder-dashboard-2.png" />
-<img src="/images/feedfinder-dashboard-3.png" />
+<img src="images/feedfinder-dashboard-1.png" />
+<img src="images/feedfinder-dashboard-2.png" />
+<img src="images/feedfinder-dashboard-3.png" />

@@ -28,17 +28,17 @@ The platform uses a three stage approach to scaffold the process of participatio
 
 ### The App Movement process
 
-<img src="/images/app-movement-phase-1.jpg" class="centered-image"/>
+<img src="images/app-movement-phase-1.jpg" class="centered-image"/>
 
 Citizens start by creating a campaign page, known as a movement, to share their idea and leverage support from their community. Similar to a Kickstarter financial target, App Movement requires citizens to gather 150 supporters within a 14-day period for the campaign to progress into the design phase. This ensures that the community are willing to engage with the idea as well as contribute and sustain the information resource when it’s launched.
 
-<img src="/images/app-movement-phase-2.jpg" class="centered-image"/>
+<img src="images/app-movement-phase-2.jpg" class="centered-image"/>
 
 Once enough people have supported the idea, the supporters are invited to a design area where they can contribute their ideas and vote on other submissions from the community to select configurable options of the app such as its name, colour scheme, rating options, and logo.
 
 The design area also allows the community to discuss features they might like to see, or how they intend to promote the app. The design area has been developed to be simple and easy to use, in order to encourage contributions from all members within the community.
 
-<img src="/images/app-movement-phase-3.jpg" class="centered-image"/>
+<img src="images/app-movement-phase-3.jpg" class="centered-image"/>
 
 After a seven-day period the design area closes and the winning contributions are selected. They are then used by the platform to automatically generate the native app for both Android and iOS. The platform will then launch the apps in the Google Play and Apple App stores and notify the supporters to begin using the app.
 

@@ -23,7 +23,7 @@ By the end of the project in late August 2015, the development will have gone th
 3. Turn a static data collection into a living, evolving digital archive. User-centered systems will be developed to capture audience interaction with collections. The search engine iterates over time as audiences explore, continually refining its understanding of what web content is most likely to provoke a user journey through museum collections.
 
 <div class="inline-gallery">
-  <img src="/images/collections-dive-1.jpg" />
-  <img src="/images/collections-dive-2.jpg" />
-  <img src="/images/collections-dive-3.jpg" />
+  <img src="images/collections-dive-1.jpg" />
+  <img src="images/collections-dive-2.jpg" />
+  <img src="images/collections-dive-3.jpg" />
 </div>
