@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/portfolio-site/feed-finder", {data:[],fetch:[],mutations:void 0});
